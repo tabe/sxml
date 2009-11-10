@@ -1,6 +1,6 @@
 (library (sxml serializer)
   (export srl:sxml->xml)
-  (import (rnrs))
+  (import (rnrs (6)))
 ;; SXML serializer into XML and HTML
 ;
 ; Partial conformance with
