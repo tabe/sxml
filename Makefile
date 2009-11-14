@@ -6,3 +6,4 @@ check: test
 
 test:
 	$(SCHEME) tests/sxml/serializer.scm
+	$(SCHEME) tests/sxml/ssax.scm
