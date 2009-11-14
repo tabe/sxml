@@ -1,0 +1,34 @@
+An R6RS library for SXML
+
+
+== License
+
+The public domain
+
+
+== Specification
+
+Since neither `@' nor `@@' is valid as <identifier> in R6RS [0],
+this program uses `^' and `^^' respectively, instead.
+See [1] if interested.
+
+
+== Acknowledgements
+
+This program owes its whole to the original SXML/SSAX library ([2], [3]).
+
+
+== Notes
+
+* Tests needs Ypsilon [4] with an external library (xunit) [5];
+  Run `YPSILON_SITELIB="path of (xunit)" make test'.
+
+
+== Reference
+
+[0] http://www.r6rs.org/final/html/r6rs/r6rs-Z-H-7.html#node_sec_4.2.1
+[1] http://groups.google.com/group/comp.lang.scheme/t/fe624ca8583695ab
+[2] http://okmij.org/ftp/Scheme/SXML.html
+[3] http://ssax.sourceforge.net/
+[4] http://code.google.com/p/ypsilon/
+[5] http://github.com/tabe/xunit/
